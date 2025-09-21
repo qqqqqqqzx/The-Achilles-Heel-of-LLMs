@@ -5,7 +5,7 @@ This repository implements our perturbation-based causal identification method f
 ## Overview
 
 This research investigates whether LLMs contain a small subset of critical neurons similar to biological neural networks. We propose a systematic method to locate such critical neurons and find that disabling as few as three neurons can catastrophically impair a 72B-parameter model with over 1.1 billion neurons, driving perplexity up by 20 orders of magnitude.
-![Motivation diagram](motivation.png)
+
 
 
 ## Key Findings
@@ -336,6 +336,7 @@ python method/1_importance_evaluation.py
 
 
 #### 
+
 
 
 
