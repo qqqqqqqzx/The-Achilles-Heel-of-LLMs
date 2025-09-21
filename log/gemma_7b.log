@@ -1,0 +1,440 @@
+2025-06-23 10:56:02,750 - INFO - === Neuron Activation Difference Analyzer ===
+2025-06-23 10:56:02,750 - INFO - Model path: ../model/AI-ModelScope/gemma-7b
+2025-06-23 10:56:02,750 - INFO - Input text: Later reviews were more positive .  In just over 29 minutes , Bookends is stunning in its vision of ...
+2025-06-23 10:56:02,750 - INFO - Noise scale: 5
+2025-06-23 10:56:02,750 - INFO - Number of samples: 100
+2025-06-23 10:56:02,750 - INFO - Random seed: 42
+2025-06-23 10:56:02,751 - INFO - Device: cuda
+2025-06-23 10:56:02,751 - INFO - Log file: ./log/gemma_7b.log
+2025-06-23 10:56:02,751 - INFO - Loading model: ../model/AI-ModelScope/gemma-7b, using device: cuda
+2025-06-23 10:57:32,625 - INFO - Model loading completed
+2025-06-23 10:57:32,637 - INFO - Starting neuron activation difference analysis
+2025-06-23 10:57:32,639 - INFO - Set up hooks for 252 key modules
+2025-06-23 10:57:32,641 - INFO - Input text length: 111 tokens
+2025-06-23 10:57:32,641 - INFO - Collecting baseline activations
+2025-06-23 10:57:33,300 - INFO - Collected baseline activations from 252 modules
+2025-06-23 10:57:33,300 - INFO - Running noise experiment 1/100
+2025-06-23 10:57:33,333 - INFO - Running noise experiment 2/100
+2025-06-23 10:57:33,362 - INFO - Running noise experiment 3/100
+2025-06-23 10:57:33,391 - INFO - Running noise experiment 4/100
+2025-06-23 10:57:33,420 - INFO - Running noise experiment 5/100
+2025-06-23 10:57:33,449 - INFO - Running noise experiment 6/100
+2025-06-23 10:57:33,479 - INFO - Running noise experiment 7/100
+2025-06-23 10:57:33,508 - INFO - Running noise experiment 8/100
+2025-06-23 10:57:33,539 - INFO - Running noise experiment 9/100
+2025-06-23 10:57:33,781 - INFO - Running noise experiment 10/100
+2025-06-23 10:57:33,810 - INFO - Running noise experiment 11/100
+2025-06-23 10:57:33,840 - INFO - Running noise experiment 12/100
+2025-06-23 10:57:33,870 - INFO - Running noise experiment 13/100
+2025-06-23 10:57:33,899 - INFO - Running noise experiment 14/100
+2025-06-23 10:57:33,927 - INFO - Running noise experiment 15/100
+2025-06-23 10:57:33,956 - INFO - Running noise experiment 16/100
+2025-06-23 10:57:33,985 - INFO - Running noise experiment 17/100
+2025-06-23 10:57:34,013 - INFO - Running noise experiment 18/100
+2025-06-23 10:57:34,042 - INFO - Running noise experiment 19/100
+2025-06-23 10:57:34,074 - INFO - Running noise experiment 20/100
+2025-06-23 10:57:34,102 - INFO - Running noise experiment 21/100
+2025-06-23 10:57:34,132 - INFO - Running noise experiment 22/100
+2025-06-23 10:57:34,161 - INFO - Running noise experiment 23/100
+2025-06-23 10:57:34,189 - INFO - Running noise experiment 24/100
+2025-06-23 10:57:34,220 - INFO - Running noise experiment 25/100
+2025-06-23 10:57:34,249 - INFO - Running noise experiment 26/100
+2025-06-23 10:57:34,499 - INFO - Running noise experiment 27/100
+2025-06-23 10:57:34,532 - INFO - Running noise experiment 28/100
+2025-06-23 10:57:34,563 - INFO - Running noise experiment 29/100
+2025-06-23 10:57:34,593 - INFO - Running noise experiment 30/100
+2025-06-23 10:57:34,624 - INFO - Running noise experiment 31/100
+2025-06-23 10:57:34,654 - INFO - Running noise experiment 32/100
+2025-06-23 10:57:34,685 - INFO - Running noise experiment 33/100
+2025-06-23 10:57:34,714 - INFO - Running noise experiment 34/100
+2025-06-23 10:57:34,744 - INFO - Running noise experiment 35/100
+2025-06-23 10:57:34,775 - INFO - Running noise experiment 36/100
+2025-06-23 10:57:34,807 - INFO - Running noise experiment 37/100
+2025-06-23 10:57:34,837 - INFO - Running noise experiment 38/100
+2025-06-23 10:57:34,868 - INFO - Running noise experiment 39/100
+2025-06-23 10:57:34,898 - INFO - Running noise experiment 40/100
+2025-06-23 10:57:34,929 - INFO - Running noise experiment 41/100
+2025-06-23 10:57:34,959 - INFO - Running noise experiment 42/100
+2025-06-23 10:57:34,990 - INFO - Running noise experiment 43/100
+2025-06-23 10:57:35,241 - INFO - Running noise experiment 44/100
+2025-06-23 10:57:35,275 - INFO - Running noise experiment 45/100
+2025-06-23 10:57:35,306 - INFO - Running noise experiment 46/100
+2025-06-23 10:57:35,338 - INFO - Running noise experiment 47/100
+2025-06-23 10:57:35,368 - INFO - Running noise experiment 48/100
+2025-06-23 10:57:35,399 - INFO - Running noise experiment 49/100
+2025-06-23 10:57:35,431 - INFO - Running noise experiment 50/100
+2025-06-23 10:57:35,462 - INFO - Running noise experiment 51/100
+2025-06-23 10:57:35,493 - INFO - Running noise experiment 52/100
+2025-06-23 10:57:35,524 - INFO - Running noise experiment 53/100
+2025-06-23 10:57:35,555 - INFO - Running noise experiment 54/100
+2025-06-23 10:57:35,589 - INFO - Running noise experiment 55/100
+2025-06-23 10:57:35,620 - INFO - Running noise experiment 56/100
+2025-06-23 10:57:35,651 - INFO - Running noise experiment 57/100
+2025-06-23 10:57:35,682 - INFO - Running noise experiment 58/100
+2025-06-23 10:57:35,714 - INFO - Running noise experiment 59/100
+2025-06-23 10:57:35,747 - INFO - Running noise experiment 60/100
+2025-06-23 10:57:35,992 - INFO - Running noise experiment 61/100
+2025-06-23 10:57:36,024 - INFO - Running noise experiment 62/100
+2025-06-23 10:57:36,057 - INFO - Running noise experiment 63/100
+2025-06-23 10:57:36,088 - INFO - Running noise experiment 64/100
+2025-06-23 10:57:36,119 - INFO - Running noise experiment 65/100
+2025-06-23 10:57:36,151 - INFO - Running noise experiment 66/100
+2025-06-23 10:57:36,183 - INFO - Running noise experiment 67/100
+2025-06-23 10:57:36,214 - INFO - Running noise experiment 68/100
+2025-06-23 10:57:36,245 - INFO - Running noise experiment 69/100
+2025-06-23 10:57:36,277 - INFO - Running noise experiment 70/100
+2025-06-23 10:57:36,310 - INFO - Running noise experiment 71/100
+2025-06-23 10:57:36,341 - INFO - Running noise experiment 72/100
+2025-06-23 10:57:36,373 - INFO - Running noise experiment 73/100
+2025-06-23 10:57:36,404 - INFO - Running noise experiment 74/100
+2025-06-23 10:57:36,436 - INFO - Running noise experiment 75/100
+2025-06-23 10:57:36,468 - INFO - Running noise experiment 76/100
+2025-06-23 10:57:36,719 - INFO - Running noise experiment 77/100
+2025-06-23 10:57:36,752 - INFO - Running noise experiment 78/100
+2025-06-23 10:57:36,784 - INFO - Running noise experiment 79/100
+2025-06-23 10:57:36,817 - INFO - Running noise experiment 80/100
+2025-06-23 10:57:36,849 - INFO - Running noise experiment 81/100
+2025-06-23 10:57:36,881 - INFO - Running noise experiment 82/100
+2025-06-23 10:57:36,913 - INFO - Running noise experiment 83/100
+2025-06-23 10:57:36,946 - INFO - Running noise experiment 84/100
+2025-06-23 10:57:36,978 - INFO - Running noise experiment 85/100
+2025-06-23 10:57:37,010 - INFO - Running noise experiment 86/100
+2025-06-23 10:57:37,042 - INFO - Running noise experiment 87/100
+2025-06-23 10:57:37,076 - INFO - Running noise experiment 88/100
+2025-06-23 12:07:53,430 - INFO - === Neuron Activation Difference Analyzer ===
+2025-06-23 12:07:53,442 - INFO - Model path: ../model/AI-ModelScope/gemma-7b
+2025-06-23 12:07:53,442 - INFO - Input text: Later reviews were more positive .  In just over 29 minutes , Bookends is stunning in its vision of ...
+2025-06-23 12:07:53,442 - INFO - Noise scale: 5
+2025-06-23 12:07:53,442 - INFO - Number of samples: 100
+2025-06-23 12:07:53,442 - INFO - Random seed: 42
+2025-06-23 12:07:53,442 - INFO - Device: cuda
+2025-06-23 12:07:53,442 - INFO - Log file: ./log/gemma_7b.log
+2025-06-23 12:07:53,443 - INFO - Loading model: ../model/AI-ModelScope/gemma-7b, using device: cuda
+2025-06-23 12:08:55,177 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-06-23 12:08:55,318 - INFO - Model loading completed
+2025-06-23 12:08:55,319 - INFO - Starting neuron activation difference analysis
+2025-06-23 12:08:55,321 - INFO - Set up hooks for 252 key modules
+2025-06-23 12:08:56,115 - INFO - Input text length: 111 tokens
+2025-06-23 12:08:56,116 - INFO - Collecting baseline activations
+2025-06-23 12:21:23,305 - INFO - === Neuron Activation Difference Analyzer ===
+2025-06-23 12:21:23,327 - INFO - Model path: ../model/AI-ModelScope/gemma-7b
+2025-06-23 12:21:23,327 - INFO - Input text: Later reviews were more positive .  In just over 29 minutes , Bookends is stunning in its vision of ...
+2025-06-23 12:21:23,327 - INFO - Noise scale: 5
+2025-06-23 12:21:23,327 - INFO - Number of samples: 100
+2025-06-23 12:21:23,327 - INFO - Random seed: 42
+2025-06-23 12:21:23,328 - INFO - Device: cuda
+2025-06-23 12:21:23,328 - INFO - Log file: ./log/gemma_7b.log
+2025-06-23 12:21:23,329 - INFO - Loading model: ../model/AI-ModelScope/gemma-7b, using device: cuda
+2025-06-23 12:21:23,329 - INFO - Loading model: ../model/AI-ModelScope/gemma-7b
+2025-06-23 12:21:23,329 - INFO - Transformers version: 4.52.4
+2025-06-23 12:21:23,329 - INFO - PyTorch version: 2.6.0+cu124
+2025-06-23 12:21:23,329 - INFO - CUDA available: True
+2025-06-23 12:21:23,358 - INFO - Model type: gemma
+2025-06-23 12:21:23,358 - INFO - Architectures: ['GemmaForCausalLM']
+2025-06-23 12:21:23,358 - INFO - Trying loading strategy 1...
+2025-06-23 12:22:23,256 - INFO - Successfully loaded with strategy 1
+2025-06-23 12:22:24,635 - INFO - Starting neuron activation difference analysis
+2025-06-23 12:36:36,759 - INFO - === Neuron Activation Difference Analyzer ===
+2025-06-23 12:36:36,760 - INFO - Model path: ../model/AI-ModelScope/gemma-7b
+2025-06-23 12:36:36,760 - INFO - Input text: Later reviews were more positive .  In just over 29 minutes , Bookends is stunning in its vision of ...
+2025-06-23 12:36:36,760 - INFO - Noise scale: 5
+2025-06-23 12:36:36,760 - INFO - Number of samples: 100
+2025-06-23 12:36:36,760 - INFO - Random seed: 42
+2025-06-23 12:36:36,760 - INFO - Device: cuda
+2025-06-23 12:36:36,760 - INFO - Log file: ./log/gemma_7b.log
+2025-06-23 12:36:36,761 - INFO - Loading model: ../model/AI-ModelScope/gemma-7b, using device: cuda
+2025-06-23 12:36:36,761 - INFO - Loading model: ../model/AI-ModelScope/gemma-7b
+2025-06-23 12:36:36,761 - INFO - Transformers version: 4.52.4
+2025-06-23 12:36:36,761 - INFO - PyTorch version: 2.6.0+cu124
+2025-06-23 12:36:36,761 - INFO - CUDA available: True
+2025-06-23 12:37:38,757 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-06-23 12:37:38,895 - INFO - Model loading completed
+2025-06-23 12:37:38,895 - INFO - Starting neuron activation difference analysis
+2025-06-23 12:37:38,898 - INFO - Set up hooks for 252 key modules
+2025-06-23 12:37:39,696 - INFO - Input text length: 111 tokens
+2025-06-23 12:37:39,696 - INFO - Collecting baseline activations
+2025-06-23 12:43:27,980 - INFO - === Multi-GPU Neuron Activation Difference Analyzer ===
+2025-06-23 12:43:27,980 - INFO - Model path: ../model/AI-ModelScope/gemma-7b
+2025-06-23 12:43:27,981 - INFO - Input text: Later reviews were more positive .  In just over 29 minutes , Bookends is stunning in its vision of ...
+2025-06-23 12:43:27,981 - INFO - Noise scale: 5
+2025-06-23 12:43:27,981 - INFO - Number of samples: 100
+2025-06-23 12:43:27,981 - INFO - Random seed: 42
+2025-06-23 12:43:27,981 - INFO - Device: auto
+2025-06-23 12:43:28,159 - INFO - Available GPUs: 4
+2025-06-23 12:43:28,161 - INFO - Available GPUs: 4
+2025-06-23 12:43:28,161 - INFO - Loading model with multi-GPU: ../model/AI-ModelScope/gemma-7b
+2025-06-23 12:43:28,161 - INFO - Transformers version: 4.52.4
+2025-06-23 12:43:28,161 - INFO - PyTorch version: 2.6.0+cu124
+2025-06-23 12:43:28,162 - INFO - CUDA available: True
+2025-06-23 12:44:27,833 - INFO - Multi-GPU model loading completed
+2025-06-23 12:44:27,850 - INFO - Model device allocation:
+2025-06-23 12:44:27,850 - INFO -   model.embed_tokens: 0
+2025-06-23 12:44:27,850 - INFO -   lm_head: 0
+2025-06-23 12:44:27,850 - INFO -   model.layers.0: 0
+2025-06-23 12:44:27,850 - INFO -   model.layers.1: 0
+2025-06-23 12:44:27,850 - INFO -   model.layers.2: 0
+2025-06-23 12:44:27,850 - INFO -   model.layers.3: 0
+2025-06-23 12:44:27,850 - INFO -   model.layers.4: 0
+2025-06-23 12:44:27,850 - INFO -   model.layers.5: 1
+2025-06-23 12:44:27,851 - INFO -   model.layers.6: 1
+2025-06-23 12:44:27,851 - INFO -   model.layers.7: 1
+2025-06-23 12:44:27,851 - INFO -   model.layers.8: 1
+2025-06-23 12:44:27,851 - INFO -   model.layers.9: 1
+2025-06-23 12:44:27,851 - INFO -   model.layers.10: 1
+2025-06-23 12:44:27,851 - INFO -   model.layers.11: 1
+2025-06-23 12:44:27,851 - INFO -   model.layers.12: 1
+2025-06-23 12:44:27,851 - INFO -   model.layers.13: 2
+2025-06-23 12:44:27,851 - INFO -   model.layers.14: 2
+2025-06-23 12:44:27,851 - INFO -   model.layers.15: 2
+2025-06-23 12:44:27,852 - INFO -   model.layers.16: 2
+2025-06-23 12:44:27,852 - INFO -   model.layers.17: 2
+2025-06-23 12:44:27,852 - INFO -   model.layers.18: 2
+2025-06-23 12:44:27,852 - INFO -   model.layers.19: 2
+2025-06-23 12:44:27,852 - INFO -   model.layers.20: 2
+2025-06-23 12:44:27,852 - INFO -   model.layers.21: 3
+2025-06-23 12:44:27,852 - INFO -   model.layers.22: 3
+2025-06-23 12:44:27,852 - INFO -   model.layers.23: 3
+2025-06-23 12:44:27,852 - INFO -   model.layers.24: 3
+2025-06-23 12:44:27,852 - INFO -   model.layers.25: 3
+2025-06-23 12:44:27,852 - INFO -   model.layers.26: 3
+2025-06-23 12:44:27,853 - INFO -   model.layers.27: 3
+2025-06-23 12:44:27,853 - INFO -   model.norm: 3
+2025-06-23 12:44:27,853 - INFO -   model.rotary_emb: 3
+2025-06-23 12:44:27,853 - INFO - Starting multi-GPU neuron activation difference analysis
+2025-06-23 12:44:27,856 - INFO - Set up hooks for 252 key modules
+2025-06-23 12:44:27,861 - INFO - Input text length: 111 tokens
+2025-06-23 12:44:27,861 - INFO - Input device: cuda:0
+2025-06-23 12:44:27,861 - INFO - Collecting baseline activations across GPUs
+2025-06-23 12:44:29,251 - INFO - Collected baseline activations from 252 modules
+2025-06-23 12:44:29,252 - INFO - Running noise experiment 1/100
+2025-06-23 12:44:30,250 - INFO - Running noise experiment 2/100
+2025-06-23 12:44:31,264 - INFO - Running noise experiment 3/100
+2025-06-23 12:44:32,194 - INFO - Running noise experiment 4/100
+2025-06-23 12:44:33,146 - INFO - Running noise experiment 5/100
+2025-06-23 12:44:34,154 - INFO - Running noise experiment 6/100
+2025-06-23 12:44:35,156 - INFO - Running noise experiment 7/100
+2025-06-23 12:44:36,156 - INFO - Running noise experiment 8/100
+2025-06-23 12:44:37,186 - INFO - Running noise experiment 9/100
+2025-06-23 12:44:38,335 - INFO - Running noise experiment 10/100
+2025-06-23 12:44:39,338 - INFO - Running noise experiment 11/100
+2025-06-23 12:44:40,359 - INFO - Running noise experiment 12/100
+2025-06-23 12:44:41,380 - INFO - Running noise experiment 13/100
+2025-06-23 12:44:42,441 - INFO - Running noise experiment 14/100
+2025-06-23 12:44:43,476 - INFO - Running noise experiment 15/100
+2025-06-23 12:44:44,502 - INFO - Running noise experiment 16/100
+2025-06-23 12:44:45,566 - INFO - Running noise experiment 17/100
+2025-06-23 12:44:46,589 - INFO - Running noise experiment 18/100
+2025-06-23 12:44:47,644 - INFO - Running noise experiment 19/100
+2025-06-23 12:44:48,673 - INFO - Running noise experiment 20/100
+2025-06-23 12:44:49,738 - INFO - Running noise experiment 21/100
+2025-06-23 12:44:50,763 - INFO - Running noise experiment 22/100
+2025-06-23 12:44:51,737 - INFO - Running noise experiment 23/100
+2025-06-23 12:44:52,767 - INFO - Running noise experiment 24/100
+2025-06-23 12:44:53,896 - INFO - Running noise experiment 25/100
+2025-06-23 12:44:55,084 - INFO - Running noise experiment 26/100
+2025-06-23 12:44:56,103 - INFO - Running noise experiment 27/100
+2025-06-23 12:44:57,255 - INFO - Running noise experiment 28/100
+2025-06-23 12:44:58,285 - INFO - Running noise experiment 29/100
+2025-06-23 12:44:59,440 - INFO - Running noise experiment 30/100
+2025-06-23 12:45:00,586 - INFO - Running noise experiment 31/100
+2025-06-23 12:45:01,650 - INFO - Running noise experiment 32/100
+2025-06-23 12:45:02,697 - INFO - Running noise experiment 33/100
+2025-06-23 12:45:03,763 - INFO - Running noise experiment 34/100
+2025-06-23 12:45:04,792 - INFO - Running noise experiment 35/100
+2025-06-23 12:45:05,847 - INFO - Running noise experiment 36/100
+2025-06-23 12:45:06,871 - INFO - Running noise experiment 37/100
+2025-06-23 12:45:07,942 - INFO - Running noise experiment 38/100
+2025-06-23 12:45:08,976 - INFO - Running noise experiment 39/100
+2025-06-23 12:45:09,989 - INFO - Running noise experiment 40/100
+2025-06-23 12:45:11,048 - INFO - Running noise experiment 41/100
+2025-06-23 12:45:12,071 - INFO - Running noise experiment 42/100
+2025-06-23 12:45:13,136 - INFO - Running noise experiment 43/100
+2025-06-23 12:45:14,269 - INFO - Running noise experiment 44/100
+2025-06-23 12:45:15,302 - INFO - Running noise experiment 45/100
+2025-06-23 12:45:16,366 - INFO - Running noise experiment 46/100
+2025-06-23 12:45:17,537 - INFO - Running noise experiment 47/100
+2025-06-23 12:45:18,670 - INFO - Running noise experiment 48/100
+2025-06-23 12:45:19,733 - INFO - Running noise experiment 49/100
+2025-06-23 12:45:20,753 - INFO - Running noise experiment 50/100
+2025-06-23 12:45:21,875 - INFO - Running noise experiment 51/100
+2025-06-23 12:45:22,934 - INFO - Running noise experiment 52/100
+2025-06-23 12:45:24,079 - INFO - Running noise experiment 53/100
+2025-06-23 12:45:25,139 - INFO - Running noise experiment 54/100
+2025-06-23 12:45:26,167 - INFO - Running noise experiment 55/100
+2025-06-23 12:45:27,190 - INFO - Running noise experiment 56/100
+2025-06-23 12:45:28,260 - INFO - Running noise experiment 57/100
+2025-06-23 12:45:29,266 - INFO - Running noise experiment 58/100
+2025-06-23 12:45:30,434 - INFO - Running noise experiment 59/100
+2025-06-23 12:45:31,467 - INFO - Running noise experiment 60/100
+2025-06-23 12:45:32,488 - INFO - Running noise experiment 61/100
+2025-06-23 12:45:33,644 - INFO - Running noise experiment 62/100
+2025-06-23 12:45:34,675 - INFO - Running noise experiment 63/100
+2025-06-23 12:45:35,748 - INFO - Running noise experiment 64/100
+2025-06-23 12:45:36,770 - INFO - Running noise experiment 65/100
+2025-06-23 12:45:37,791 - INFO - Running noise experiment 66/100
+2025-06-23 12:45:38,924 - INFO - Running noise experiment 67/100
+2025-06-23 12:45:40,062 - INFO - Running noise experiment 68/100
+2025-06-23 12:45:41,233 - INFO - Running noise experiment 69/100
+2025-06-23 12:45:42,260 - INFO - Running noise experiment 70/100
+2025-06-23 12:45:43,272 - INFO - Running noise experiment 71/100
+2025-06-23 12:45:44,288 - INFO - Running noise experiment 72/100
+2025-06-23 12:45:45,352 - INFO - Running noise experiment 73/100
+2025-06-23 12:45:46,477 - INFO - Running noise experiment 74/100
+2025-06-23 12:45:47,638 - INFO - Running noise experiment 75/100
+2025-06-23 12:45:48,678 - INFO - Running noise experiment 76/100
+2025-06-23 12:45:49,697 - INFO - Running noise experiment 77/100
+2025-06-23 12:45:50,747 - INFO - Running noise experiment 78/100
+2025-06-23 12:45:51,881 - INFO - Running noise experiment 79/100
+2025-06-23 12:45:53,312 - INFO - Running noise experiment 80/100
+2025-06-23 12:45:54,985 - INFO - Running noise experiment 81/100
+2025-06-23 12:45:56,675 - INFO - Running noise experiment 82/100
+2025-06-23 12:45:58,361 - INFO - Running noise experiment 83/100
+2025-06-23 12:46:00,361 - INFO - Running noise experiment 84/100
+2025-06-23 12:46:02,078 - INFO - Running noise experiment 85/100
+2025-06-23 12:46:03,640 - INFO - Running noise experiment 86/100
+2025-06-23 12:46:05,526 - INFO - Running noise experiment 87/100
+2025-06-23 12:46:06,676 - INFO - Running noise experiment 88/100
+2025-06-23 12:46:07,695 - INFO - Running noise experiment 89/100
+2025-06-23 12:46:08,760 - INFO - Running noise experiment 90/100
+2025-06-23 12:46:09,781 - INFO - Running noise experiment 91/100
+2025-06-23 12:46:10,845 - INFO - Running noise experiment 92/100
+2025-06-23 12:46:11,878 - INFO - Running noise experiment 93/100
+2025-06-23 12:46:12,888 - INFO - Running noise experiment 94/100
+2025-06-23 12:46:13,943 - INFO - Running noise experiment 95/100
+2025-06-23 12:46:14,734 - INFO - Running noise experiment 96/100
+2025-06-23 12:46:15,771 - INFO - Running noise experiment 97/100
+2025-06-23 12:46:16,787 - INFO - Running noise experiment 98/100
+2025-06-23 12:46:17,839 - INFO - Running noise experiment 99/100
+2025-06-23 12:46:18,877 - INFO - Running noise experiment 100/100
+2025-06-23 12:46:19,946 - INFO - Successfully collected activation differences from 252 modules
+2025-06-23 12:46:19,947 - INFO - Computing neuron importance
+2025-06-23 13:33:27,153 - INFO - Found 295977282 meaningful neurons
+2025-06-23 13:33:27,154 - INFO - Sorting neurons by activation difference
+2025-06-23 13:35:40,357 - INFO - Saving results to ./neurons/gemma_7b.json
+2025-06-23 13:35:40,451 - INFO - Multi-GPU analysis completed
+2025-06-23 13:35:40,452 - INFO - Total discovered neurons: 295977282
+2025-06-23 13:35:40,452 - INFO - Used 4 GPUs for computation
+2025-06-23 13:35:40,452 - INFO - Top 10 neurons with highest activation difference:
+2025-06-23 13:35:40,452 - INFO - Rank 1: Layer model.layers.2.post_attention_layernorm, Activation diff: 637.500000, batch_idx: 0, seq_idx: 0, hidden_idx: 1995
+2025-06-23 13:35:40,452 - INFO - Rank 2: Layer model.layers.3.post_attention_layernorm, Activation diff: 561.500000, batch_idx: 0, seq_idx: 0, hidden_idx: 1995
+2025-06-23 13:35:40,452 - INFO - Rank 3: Layer model.layers.27.mlp.down_proj, Activation diff: 498.250000, batch_idx: 0, seq_idx: 0, hidden_idx: 1995
+2025-06-23 13:35:40,452 - INFO - Rank 4: Layer model.layers.27.mlp.down_proj, Activation diff: 413.000000, batch_idx: 0, seq_idx: 0, hidden_idx: 87
+2025-06-23 13:35:40,453 - INFO - Rank 5: Layer model.layers.27.mlp.down_proj, Activation diff: 292.750000, batch_idx: 0, seq_idx: 0, hidden_idx: 1723
+2025-06-23 13:35:40,453 - INFO - Rank 6: Layer model.layers.27.mlp.down_proj, Activation diff: 238.750000, batch_idx: 0, seq_idx: 0, hidden_idx: 2362
+2025-06-23 13:35:40,453 - INFO - Rank 7: Layer model.layers.27.mlp.down_proj, Activation diff: 213.875000, batch_idx: 0, seq_idx: 0, hidden_idx: 214
+2025-06-23 13:35:40,453 - INFO - Rank 8: Layer model.layers.24.post_attention_layernorm, Activation diff: 208.875000, batch_idx: 0, seq_idx: 0, hidden_idx: 1995
+2025-06-23 13:35:40,453 - INFO - Rank 9: Layer model.layers.22.post_attention_layernorm, Activation diff: 200.125000, batch_idx: 0, seq_idx: 0, hidden_idx: 1995
+2025-06-23 13:35:40,453 - INFO - Rank 10: Layer model.layers.23.post_attention_layernorm, Activation diff: 197.875000, batch_idx: 0, seq_idx: 0, hidden_idx: 1995
+2025-06-23 13:35:43,164 - INFO - === Multi-GPU Analysis Completed ===
+2025-06-23 13:35:43,173 - INFO - Discovered 295977282 neurons
+2025-06-23 13:35:43,175 - INFO - Results saved to: ./neurons/gemma_7b.json
+2025-06-23 13:35:43,175 - INFO - Log saved to: ./log/gemma_7b.log
+2025-06-23 13:41:49,657 - INFO - === Progressive Neuron Masking Analyzer ===
+2025-06-23 13:41:49,657 - INFO - Model path: ../model/AI-ModelScope/gemma-7b
+2025-06-23 13:41:49,657 - INFO - Neuron file: ./neurons/gemma_7b.json
+2025-06-23 13:41:49,657 - INFO - Test text: Later reviews were more positive .  In just over 29 minutes , Bookends is stunning in its vision of ...
+2025-06-23 13:41:49,658 - INFO - Step size: 1
+2025-06-23 13:41:49,658 - INFO - Max magnitude increase: 4.0
+2025-06-23 13:41:49,658 - INFO - Random seed: 42
+2025-06-23 13:41:49,658 - INFO - Device: cuda
+2025-06-23 13:41:49,658 - INFO - Log file: ./log/gemma_7b.log
+2025-06-23 13:41:49,659 - INFO - Loading model: ../model/AI-ModelScope/gemma-7b, using device: cuda
+2025-06-23 13:42:48,877 - INFO - Model loading completed
+2025-06-23 13:42:48,878 - INFO - Loading neuron importance data from: ./neurons/gemma_7b.json
+2025-06-23 13:42:48,916 - INFO - Loaded 10000 neurons
+2025-06-23 13:42:48,917 - INFO - Starting progressive neuron masking analysis
+2025-06-23 13:42:48,917 - INFO - Test text: Later reviews were more positive .  In just over 29 minutes , Bookends is stunning in its vision of ...
+2025-06-23 13:42:48,917 - INFO - Step size: 1
+2025-06-23 13:42:48,917 - INFO - Max magnitude increase: 4.0
+2025-06-23 13:42:48,919 - INFO - Set up masking hooks for 40 target layers
+2025-06-23 13:42:48,919 - INFO - Computing baseline perplexity
+2025-06-23 13:42:49,883 - INFO - Baseline perplexity: 28.5143
+2025-06-23 13:42:49,885 - INFO - Step 1: masking 1 neurons (total: 1)
+2025-06-23 13:42:49,998 - INFO - Masked perplexity: 28.7556
+2025-06-23 13:42:49,999 - INFO - Magnitude increase: 0.0037
+2025-06-23 13:42:49,999 - INFO - Step 2: masking 2 neurons (total: 2)
+2025-06-23 13:42:50,083 - INFO - Masked perplexity: 28.3156
+2025-06-23 13:42:50,083 - INFO - Magnitude increase: -0.0030
+2025-06-23 13:42:50,083 - INFO - Step 3: masking 3 neurons (total: 3)
+2025-06-23 13:42:50,166 - INFO - Masked perplexity: 543906752612953499893760.0000
+2025-06-23 13:42:50,167 - INFO - Magnitude increase: 22.2805
+2025-06-23 13:42:50,167 - INFO - Stopping: magnitude increase (22.2805) >= threshold (4.0)
+2025-06-23 13:42:50,167 - INFO - Saving results to ./result/gemma_7b_mask_neuron.json
+2025-06-23 13:42:50,170 - INFO - Progressive masking analysis completed
+2025-06-23 13:42:50,170 - INFO - Total steps: 3
+2025-06-23 13:42:50,170 - INFO - Final masked neurons: 3
+2025-06-23 13:42:50,170 - INFO - 
+=== Masking Summary ===
+2025-06-23 13:42:50,170 - INFO - Step 1: 1 neurons, perplexity: 28.7556, magnitude increase: 0.0037
+2025-06-23 13:42:50,170 - INFO - Step 2: 2 neurons, perplexity: 28.3156, magnitude increase: -0.0030
+2025-06-23 13:42:50,170 - INFO - Step 3: 3 neurons, perplexity: 543906752612953499893760.0000, magnitude increase: 22.2805
+2025-06-23 13:42:50,170 - INFO - === Analysis Completed ===
+2025-06-23 13:42:50,171 - INFO - Results saved to: ./result/gemma_7b_mask_neuron.json
+2025-06-23 13:42:50,171 - INFO - Log saved to: ./log/gemma_7b.log
+2025-07-30 08:36:15,305 - INFO - === Multi-GPU Progressive Neuron Masking Analyzer ===
+2025-07-30 08:36:15,333 - INFO - Model path: ../model/AI-ModelScope/gemma-7b
+2025-07-30 08:36:15,335 - INFO - Neuron file: ./neurons/gemma_7b.json
+2025-07-30 08:36:15,335 - INFO - Test text: Later reviews were more positive .  In just over 29 minutes , Bookends is stunning in its vision of ...
+2025-07-30 08:36:15,335 - INFO - Step size: 1
+2025-07-30 08:36:15,335 - INFO - Max magnitude increase: 100.0
+2025-07-30 08:36:15,335 - INFO - Random seed: 42
+2025-07-30 08:36:15,335 - INFO - Device: auto
+2025-07-30 08:36:15,391 - INFO - Available GPUs: 1
+2025-07-30 08:36:15,392 - INFO - Available GPUs: 1
+2025-07-30 08:36:15,393 - INFO - Loading model with multi-GPU: ../model/AI-ModelScope/gemma-7b
+2025-07-30 08:36:15,393 - INFO - Transformers version: 4.52.4
+2025-07-30 08:36:15,393 - INFO - PyTorch version: 2.6.0+cu124
+2025-07-30 08:36:15,393 - INFO - CUDA available: True
+2025-07-30 08:37:34,654 - INFO - Multi-GPU model loading completed
+2025-07-30 08:37:34,658 - INFO - Model device allocation:
+2025-07-30 08:37:34,658 - INFO -   : 0
+2025-07-30 08:37:34,658 - INFO - Loading neuron importance data from: ./neurons/gemma_7b.json
+2025-07-30 08:37:34,714 - INFO - Loaded 10000 neurons
+2025-07-30 08:37:34,714 - INFO - Starting multi-GPU progressive neuron masking analysis
+2025-07-30 08:37:34,714 - INFO - Test text: Later reviews were more positive .  In just over 29 minutes , Bookends is stunning in its vision of ...
+2025-07-30 08:37:34,714 - INFO - Step size: 1
+2025-07-30 08:37:34,714 - INFO - Max magnitude increase: 100.0
+2025-07-30 08:37:34,715 - INFO - Using 1 GPUs
+2025-07-30 08:37:34,715 - INFO - Computing baseline perplexity
+2025-07-30 08:37:35,667 - INFO - Baseline perplexity: 28.5143
+2025-07-30 08:37:35,668 - INFO - Step 1: masking 1 neurons (total: 1)
+2025-07-30 08:37:35,668 - INFO - Set up 1 masking hooks for 1 layers
+2025-07-30 08:37:35,669 - INFO - Applied masking to 1 neurons using 1 hooks
+2025-07-30 08:37:35,710 - INFO - Masked perplexity: 28.7556
+2025-07-30 08:37:35,710 - INFO - Magnitude increase: 0.0037
+2025-07-30 08:37:35,715 - INFO - Step 2: masking 2 neurons (total: 2)
+2025-07-30 08:37:35,716 - INFO - Set up 2 masking hooks for 2 layers
+2025-07-30 08:37:35,716 - INFO - Applied masking to 2 neurons using 2 hooks
+2025-07-30 08:37:35,764 - INFO - Masked perplexity: 28.3156
+2025-07-30 08:37:35,765 - INFO - Magnitude increase: -0.0030
+2025-07-30 08:37:35,770 - INFO - Step 3: masking 3 neurons (total: 3)
+2025-07-30 08:37:35,771 - INFO - Set up 3 masking hooks for 3 layers
+2025-07-30 08:37:35,771 - INFO - Applied masking to 3 neurons using 3 hooks
+2025-07-30 08:37:35,820 - INFO - Masked perplexity: 543906752612953499893760.0000
+2025-07-30 08:37:35,820 - INFO - Magnitude increase: 22.2805
+2025-07-30 08:37:35,825 - INFO - Step 4: masking 4 neurons (total: 4)
+2025-07-30 08:37:35,826 - INFO - Set up 3 masking hooks for 3 layers
+2025-07-30 08:37:35,826 - INFO - Applied masking to 4 neurons using 3 hooks
+2025-07-30 08:37:35,875 - INFO - Masked perplexity: 2768864355914335945490432.0000
+2025-07-30 08:37:35,875 - INFO - Magnitude increase: 22.9872
+2025-07-30 08:37:35,880 - INFO - Step 5: masking 5 neurons (total: 5)
+2025-07-30 08:37:35,881 - INFO - Set up 3 masking hooks for 3 layers
+2025-07-30 08:37:35,881 - INFO - Applied masking to 5 neurons using 3 hooks
+2025-07-30 08:37:35,930 - INFO - Masked perplexity: inf
+2025-07-30 08:37:35,930 - INFO - Magnitude increase: inf
+2025-07-30 08:37:35,930 - INFO - Stopping: magnitude increase (inf) >= threshold (100.0)
+2025-07-30 08:37:35,931 - INFO - Saving results to ./result/gemma_7b_mask_neuron.json
+2025-07-30 08:37:35,942 - INFO - Multi-GPU progressive masking analysis completed
+2025-07-30 08:37:35,942 - INFO - Total steps: 5
+2025-07-30 08:37:35,942 - INFO - Final masked neurons: 5
+2025-07-30 08:37:35,942 - INFO - Used 1 GPUs for computation
+2025-07-30 08:37:35,942 - INFO - 
+=== Multi-GPU Masking Summary ===
+2025-07-30 08:37:35,942 - INFO - Step 1: 1 neurons, perplexity: 28.7556, magnitude increase: 0.0037
+2025-07-30 08:37:35,942 - INFO - Step 2: 2 neurons, perplexity: 28.3156, magnitude increase: -0.0030
+2025-07-30 08:37:35,942 - INFO - Step 3: 3 neurons, perplexity: 543906752612953499893760.0000, magnitude increase: 22.2805
+2025-07-30 08:37:35,942 - INFO - Step 4: 4 neurons, perplexity: 2768864355914335945490432.0000, magnitude increase: 22.9872
+2025-07-30 08:37:35,942 - INFO - Step 5: 5 neurons, perplexity: inf, magnitude increase: inf
+2025-07-30 08:37:35,942 - INFO - === Multi-GPU Analysis Completed ===
+2025-07-30 08:37:35,943 - INFO - Results saved to: ./result/gemma_7b_mask_neuron.json
+2025-07-30 08:37:35,943 - INFO - Log saved to: ./log/gemma_7b.log
