@@ -38,25 +38,6 @@ huggingface-cli download microsoft/DialoGPT-medium --local-dir ./models/dialogpt
 
 Our Perturbation-based Causal Identification of Critical Neurons method consists of a two-stage optimization process that mirrors the spirit of lesion studies to locate critical neurons. The method operates on any text as input and uses controlled perturbations to systematically identify neurons indispensable for the model's function.
 
-### Environment Setup
-
-```bash
-pip install -r requirements.txt
-```
-
-### Model Download
-
-Download models from Hugging Face Hub:
-
-```bash
-# Install huggingface-cli
-pip install huggingface_hub
-
-# Download example models used in our experiments
-huggingface-cli download meta-llama/Llama-3.2-3B-Instruct --local-dir ./models/llama-3.2-3b
-huggingface-cli download google/gemma-7b --local-dir ./models/gemma-7b  
-huggingface-cli download microsoft/DialoGPT-medium --local-dir ./models/dialogpt
-```
 
 ### Stage 1: Neuron Importance Evaluation
 
@@ -354,6 +335,7 @@ python method/1_importance_evaluation.py
 
 
 #### 
+
 
 
 
