@@ -14,7 +14,25 @@ This research investigates whether LLMs contain a small subset of critical neuro
 2. **Architectural Concentration**: Critical neurons cluster in outer layers, particularly in MLP down_proj components
 3. **Phase Transition Behavior**: Sharp performance collapse rather than gradual degradation
 
+## Environment Setup
 
+```bash
+pip install -r requirements.txt
+```
+
+## Model Download
+
+Download models from Hugging Face Hub:
+
+```bash
+# Install huggingface-cli
+pip install huggingface_hub
+
+# Download example models used in our experiments
+huggingface-cli download meta-llama/Llama-3.2-3B-Instruct --local-dir ./models/llama-3.2-3b
+huggingface-cli download google/gemma-7b --local-dir ./models/gemma-7b  
+huggingface-cli download microsoft/DialoGPT-medium --local-dir ./models/dialogpt
+```
 
 ## Method
 
