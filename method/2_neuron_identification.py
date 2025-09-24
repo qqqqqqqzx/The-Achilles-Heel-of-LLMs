@@ -344,7 +344,7 @@ def main():
     parser.add_argument("--neuron_file", type=str, required=True, help="Neuron importance file (JSON)")
     parser.add_argument("--test_text", type=str, required=True, help="Text to test perplexity on")
     parser.add_argument("--step_size", type=int, default=1, help="Number of neurons to mask per step (default: 1)")
-    parser.add_argument("--max_magnitude", type=float, default=3.0, help="Maximum magnitude increase to allow (default: 3.0)")
+    parser.add_argument("--max_magnitude", type=float, default=1.0, help="Maximum magnitude increase to allow (default: 1.0)")
     parser.add_argument("--seed", type=int, default=42, help="Random seed (default: 42)")
     parser.add_argument("--output_file", type=str, default="masking_results.json", help="Output file name")
     parser.add_argument("--log_file", type=str, default="neuron_masking.log", help="Log file name")
@@ -387,3 +387,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
