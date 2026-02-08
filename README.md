@@ -330,11 +330,21 @@ python method/1_importance_evaluation.py
     --output_file "./ablation/wikipedia_text_neurons.json"
 ```
 
-#### 
 
+## Citation
 
+If you find this repository or our findings useful in your research, please cite our paper:
 
-#### 
+```bibtex
+@misc{qin2025achillesheelllmsaltering,
+      title={The Achilles' Heel of LLMs: How Altering a Handful of Neurons Can Cripple Language Abilities}, 
+      author={Zixuan Qin and Kunlin Lyu and Qingchen Yu and Yifan Sun and Zhaoxin Fan},
+      year={2025},
+      eprint={2510.10238},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={[https://arxiv.org/abs/2510.10238]}, 
+}
 
 
 
