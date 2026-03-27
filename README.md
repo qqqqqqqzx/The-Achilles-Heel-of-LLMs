@@ -336,14 +336,13 @@ python method/1_importance_evaluation.py
 If you find this repository or our findings useful in your research, please cite our paper:
 
 ```bibtex
-@misc{qin2026achillesheelllmsaltering,
-      title={The Achilles' Heel of LLMs: How Altering a Handful of Neurons Can Cripple Language Abilities}, 
-      author={Zixuan Qin and Qingchen Yu and Kunlin Lyu and Zhaoxin Fan and Yifan Sun},
-      year={2026},
-      eprint={2510.10238},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2510.10238}, 
+@inproceedings{
+qin2026the,
+title={The Achilles{\textquoteright} Heel of {LLM}s: How Altering a Handful of Neurons Can Cripple Language Abilities},
+author={Zixuan Qin and Qingchen Yu and Kunlin Lyu and Zhaoxin Fan and Yifan Sun},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=pJoSE7Cvj0}
 }
 ```
 
